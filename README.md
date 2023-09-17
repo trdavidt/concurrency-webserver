@@ -18,7 +18,7 @@ The server serves files from the `basedir` directory and runs on the specified `
 wclient <host> <port> <file path(s)>
 ```
 
-The client makes requests for the listed files to the provided `host` and `port`.
+The client makes requests for the listed files to the provided `host` and `port`. The file paths should be relative to the `basedir` used by the server.
 
 
 ## Load Testing
