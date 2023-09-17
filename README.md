@@ -10,7 +10,7 @@ This project implements a multi-threaded concurrent web server based on the sing
 wserver [-d basedir] [-p port] [-t threads] [-b buffers] [-s schedalg]
 ```
 
-The server serves files from the `basedir` directory and runs on the specified `port` on `localhost`. The server creates `threads` number of worker threads and will accept up to `buffers` number of request connections at once. The scheduling policy provided in `schedalg` can either be `SFF` or `FIFO`. Defaults are provided in the [common header]().
+The server serves files from the `basedir` directory and runs on the specified `port` on `localhost`. The server creates `threads` number of worker threads and will accept up to `buffers` number of request connections at once. The scheduling policy provided in `schedalg` can either be `SFF` or `FIFO`. Defaults are provided in the [common header](https://github.com/trdavidt/concurrency-webserver/blob/master/src/common.h).
 
 ## Client
 
